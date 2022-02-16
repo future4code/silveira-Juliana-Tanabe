@@ -54,10 +54,20 @@
     
 //     - 💡  Dica
 
-        let nome = 
-        let idade =
-        
-        
+        let nome = null;
+        let anos = null;
+        typeof nome;
+        typeof anos;
+        //d) O tipo é object, é um recipiente e serve pra armazenar alguma coisa
+
+
+        const anos = prompt("Qual a sua idade?");
+        const nome = prompt("Como você se chama?");
+
+        console.log('Olá',nome ,'você tem', anos, 'anos');
+        typeof nome;
+        typeof anos;
+        // f) O tipo é string depois de preenchida
 //         <aside>
 //         ☝ Se você receber um erro de código nessa etapa, reflita sobre o tipo de declaração que utilizou.
         
@@ -78,6 +88,19 @@
         
     
 // 2. Escreva um programa que faça 3 perguntas de Sim ou Não, armazenado em uma variável. Por exemplo: "Você está usando uma roupa azul hoje?". Depois, siga os passos:
+
+        let eAzul= null;
+        let toBem = null;
+        let temFome = null;
+
+        const eAzul = prompt('Você está usando uma roupa azul hoje?');
+        const toBem = prompt('Tudo bem com você?');
+        const temFome = prompt('Você está com fome?');
+
+        
+
+        console.log('Você está usando uma roupa azul hoje?', eAzul, 'Tudo bem com você?', toBem, 'Você está com fome?', temFome );
+
     
 //     a) Crie três novas variáveis, contendo as respostas
     
@@ -110,6 +133,17 @@
 //     ```
     
 //     Crie a lógica que deve ser inserida no código para que os valores de a e b sejam trocados, independente de qual valor essas variáveis assumam inicialmente (ou seja: não basta dizer que `a = 25` e `b = 10` porque se os valores iniciais mudarem, a lógica do seu programa teria que mudar também). 
+
+                let a = 10;
+                let b = 25;
+                let c = 0;
+                let d = 0;
+
+                let c = a;
+                let d = b;
+                let a = d;
+                let b = c;
+
     
 //     - 💡  Dica 1
         
